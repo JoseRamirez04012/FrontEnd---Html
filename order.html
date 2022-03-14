@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/orderstyle.css">
+    <script src="https://kit.fontawesome.com/d37ba02ca3.js" crossorigin="anonymous"></script>
+    <title>Realizar pedido - Dolce delizia</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand">
+            <a href="index.html">
+                <img src="/assets/images/Dolce delizia-logos_white.png" alt="Dulce delizia logo">
+            </a>
+        </div>
+        <ul>
+            <li>
+                <a href="index.html#about">Nosotros</a>
+            </li>
+            <li>
+                <a href="index.html#products">Productos</a>
+            </li>
+            <li>
+                <a href="index.html#galery">Galería</a>
+            </li>
+            <li>
+                <a href="index.html#contact">Contacto</a>
+            </li>
+            <li>
+                <a href="#">Ordenar</a>
+            </li>
+            <li>
+                <a href="login.html">Ingresar</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Ordena</h2>
+        <div class="progress-bar">
+            <div class="step">
+                <p>Selecciona</p>
+                <div class="bullet">
+                    <span>1</span>
+                </div>
+                <div class="fa-solid fa-check check"></div>
+            </div>
+            <div class="step">
+                <p>Personaliza</p>
+                <div class="bullet">
+                    <span>2</span>
+                </div>
+                <div class="fa-solid fa-check check"></div>
+            </div>
+            <div class="step">
+                <p>Envío</p>
+                <div class="bullet">
+                    <span>3</span>
+                </div>
+                <div class="fa-solid fa-check check"></div>
+            </div>
+        </div>
+        <div class="form-outer">
+            <form action="#">
+                <div class="page slide-page">
+                    <div class="field">
+                        <div class="label"><b>Cantidad:</b></div>
+                        <input type="number" name="" id="" value="1" min="1" max="10">
+                    </div>
+                    <div class="field">
+                        <div class="label"><b>Sabores:</b> </div>
+                        <select multiple name="drawfs" id="drawfs">
+                            <option>Pastel de Moka</option>
+                            <option>Pastel Red Velvet</option>
+                            <option>Pastel de Nuez</option>
+                            <option>Pastel de Tres leches Chocolate</option>
+                            <option>Pastel de Tres leches Fresa</option>
+                            <option>Pastel de Zanahoria</option>
+                          </select>
+                    </div>
+                    <div class="field">
+                        <button class="firstNext next">Siguiente</button>
+                    </div>
+                </div>
+                <div class="page">
+                    <div class="field">
+                        <div class="label"><b>Adornos:</b></div>
+                        <input type="checkbox" name="" id=""><label for="">Vela tradicional<span> .......$10</span></label>
+                        <input type="checkbox" name="" id=""><label for="">Vela numérica<span> .......$15</span></label>
+                        <input type="checkbox" name="" id=""><label for="">Letrero<span> .......$30</span></label>
+                    </div>
+                    <div class="field">
+                        <div class="label"><b>Indicaciones adicionales:</b></div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe aquí indicaciones adicionales"></textarea>
+                    </div>
+                    <div class="field btns">
+                        <button class="prev-1 prev">Anterior</button>
+                        <button class="next-1 next">Siguiente</button>
+                    </div>
+                </div>
+                <div class="page">
+                    <div class="field">
+                        <div class="label"><b>Nombre(s):</b></div>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <div class="label"><b>Teléfono:</b></div>
+                        <input type="tel" name="" id="">
+                    </div>
+                    <div class="field">
+                        <div class="label"><b>Correo electrónico:</b></div>
+                        <input type="email">
+                    </div>
+                    <div class="field">
+                        <div class="label"><b>Dirección:</b></div>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <div class="label"><b>Fecha de entrega:</b></div>
+                        <input type="datetime-local" name="" id="">
+                    </div>
+                    <div class="field btns">
+                        <button class="prev-2 prev">Anterior</button>
+                        <button class="submit">Finalizar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&#169; Todos los derechos reservados</p>
+    </footer>
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+</body>
+
+</html>
